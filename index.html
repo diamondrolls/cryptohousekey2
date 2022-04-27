@@ -204,7 +204,7 @@ position:relevant;
 }
  
 
-}
+
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes money{
  0% { transform:rotateY(0deg);}
@@ -248,7 +248,7 @@ position:relevant;
 }
   
 .front {
-  transform: translateZ(145px);
+  transform: translateZ(170px);
   position:absolute;
   background-color:rgb(255, 215, 0, .5);
 	border-style:outset;
@@ -260,7 +260,7 @@ position:relevant;
   width:50px;
   bottom:0%;
   left:70px;
-  transform: translateZ(150px);
+  transform: translateZ(175px);
   position:absolute;
   background-color:rgb(255, 255, 255);
 	border-style:outset;
@@ -271,7 +271,7 @@ position:relevant;
   width:25px;
   top:50px;
   left:100px;
-  transform: translateZ(150px);
+  transform: translateZ(175px);
   position:relative;
    background-color:rgb(255, 255, 255, .5);
 	border-style:inset;
@@ -283,7 +283,7 @@ position:relevant;
   width:25px;
   bottom:50px;
   left:50px;
-  transform: translateZ(150px);
+  transform: translateZ(175px);
   position:absolute;
    background-color:rgb(255, 255, 255, .5);
 	border-style:inset;
@@ -295,7 +295,7 @@ position:relevant;
   width:25px;
   top:50px;
   right:100px;
-  transform: translateZ(150px);
+  transform: translateZ(175px);
   position:absolute;
    background-color:rgb(255, 255, 255, .5);
 	border-style:inset;
@@ -307,7 +307,7 @@ position:relevant;
   width:25px;
   bottom:50px;
   right:50px;
-  transform: translateZ(150px);
+  transform: translateZ(175px);
   position:absolute;
    background-color:rgb(255, 255, 255, .5);
 	border-style:inset;
@@ -350,13 +350,16 @@ position:relevant;
 	/* Safari 4.0 - 8.0 */
 @-webkit-keyframes alotofmoney{
   0% { transform:rotateX(0deg);}
-100% { transform:rotateX(360deg);}
+100% { transform:rotateX(360deg);
+     transform-style:preserve-3d;}
 
 }
 		  
 @keyframes  alotofmoney{
- 0% { transform:rotateX(0deg);}
-100% { transform:rotateX(360deg);}
+ 0% { transform:rotateX(0deg);
+      transform-style:preserve-3d;}
+100% { transform:rotateX(360deg);
+      transform-style:preserve-3d;}
 
 }  
 		   ul {
