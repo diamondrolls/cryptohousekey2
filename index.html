@@ -195,8 +195,8 @@ position:relevant;
         left:300px;   
         top:400px;
         position: relative;
-	width:450px;
-	height:700px;
+	width:350px;
+	height:620px;
         transform-style:preserve-3d;
         transform: rotateY(-100deg) rotateX(70deg) rotateZ(605deg);
        animation:money 13s infinite ;
@@ -328,12 +328,15 @@ position:relevant;
   bottom:0%;
   position:absolute;
   left:25px;
-  transform: translateZ(-118px) rotateY(97deg) rotateX(70deg);
+  transform: translateZ(-118px) rotateY(97deg);
   transform-origin: right;
   background-color:rgb(255, 0, 0, 1);
   border-style:outset;
-       border-color:rgb(255, 255, 255);
-}	
+   border-color:rgb(255, 255, 255);
+  animation: alotofmoney 13s infinite ;
+       -webkit-animation: alotofmoney 13s infinite;/* Safari 4.0 - 8.0 */
+}
+	
 
 .right {
   width: 100%;
@@ -346,14 +349,14 @@ position:relevant;
 
 	/* Safari 4.0 - 8.0 */
 @-webkit-keyframes alotofmoney{
- 0% { right:0%;}
-100% { right:100%;}
+  0% { transform:rotateX(0deg);}
+100% { transform:rotateX(360deg);}
 
 }
 		  
 @keyframes  alotofmoney{
- 0% { right:0%;}
-100% { right:100%;}
+ 0% { transform:rotateX(0deg);}
+100% { transform:rotateX(360deg);}
 
 }  
 		   ul {
