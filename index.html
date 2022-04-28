@@ -313,6 +313,18 @@ position:relevant;
 	border-style:inset;
             border-color:rgba(255, 215, 0);
 }
+.frontview {
+    transform-style:preserve-3d;
+    height:150px;
+  width:300px;
+  top:200px;
+  position:absolute;
+  left:25px;
+  transform: translateZ(250px);
+  background-color:rgb(255, 255, 255, .5);
+  border-style:outset;
+   border-color:rgb(255, 255, 255);
+}
 
 .left {
   width: 100%;
@@ -424,7 +436,7 @@ body{
    <div class="side top"></div>
    <div class="side left"><div class="leftgarage"></div></div>
    <div class="side right"></div>
-   <div class="side front"> <div class="frontwindow"></div>  <div class="frontwindow2"></div> <div class="frontdoor"></div> <div class="frontwindow3"></div> <div class="frontwindow4"></div>  </div>
+   <div class="side front"> <div class="frontwindow"></div>  <div class="frontwindow2"></div>  <div class="frontview"></div> <div class="frontdoor"></div> <div class="frontwindow3"></div> <div class="frontwindow4"></div>  </div>
       <div class="side back"></div>
 </div>
 
